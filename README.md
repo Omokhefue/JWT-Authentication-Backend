@@ -2,7 +2,7 @@
 Authentication and Authorization with JWT.
 
 
-//Features
+//Features.
 JWT-based authentication with the jsonwebtoken library.
 MongoDB's ODM library, mongoose.
 bcrypt library to hash and later comapare passwords.
@@ -11,14 +11,14 @@ middleware used with specfic routes to authorize access.
 cookie-parser library to set and get cookies.
 
 
-// Configuration
+// Configuration.
 Run npm init -y to install all dependencies used. Make sure you have node installed beforehand.
 Open a .env file and set your database connection and JWT secret key.
 
-// Usage
+// Usage.
 Testing done with Postman.
 
-//Security Considerations
+//Security Considerations.
 hashing passwords before saving to database.
 using HTTPS.
 verifying jwt before granting access after logging in/signing up.
